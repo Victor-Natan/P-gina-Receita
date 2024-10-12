@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(238, 197, 159, 0.705);
+}
+
+.receita{
+
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e8e8e8;
+    width: 30%;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.receita .imagem-omelette{
+    width: 100%;
+    border-radius: 12px;
+
+
+}
+
+
+
+.receita .tempo{
+    border-radius: 12px;
+    border-style: solid;
+    background-color: #f1d7eb;
+    border-color: #f1d7eb;
+    width: 95%;
+    padding: 0 10px;
+
+}
+
+.receita .tempo .preparacao {
+    color:rgb(155, 7, 110);
+}
+
+.receita .ingredientes .titulo1{
+    color: rgb(148, 90, 35);
+}
+
+.receita .instrucoes .titulo2{
+    color: rgb(148, 90, 35);
+}
+
+.receita .nutricao .titulo3{
+    color: rgb(148, 90, 35);
+}
+
+.receita .nutricao .tabela1{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+  border-bottom: solid 1px #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.receita .nutricao .bege{
+    color: rgb(133, 71, 13);
+    
+}
+
+.receita .ingredientes li::marker{
+    color: rgb(148, 90, 35);
+}
+
+.receita .instrucoes li::marker{
+    color: rgb(148, 90, 35);
+    font-weight: bold;
+}
